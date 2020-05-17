@@ -1,8 +1,20 @@
 body{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background: #282C35;
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	box-sizing:border-box;
+	margin: 0px;
+	padding: 0px;
+}
+#divBody{
+	padding: 5px;
 }
 #divHeaderWrapper{
-	background: #5A7DCD
+	background: #5A7DCD;
+	margin: 0px;
 }
 #tableHeader{
 	font-size: x-large
@@ -15,8 +27,7 @@ body{
 .bodyWidth{
 	width: 50%
 }
-.headerElem
-{
+.headerElem{
 	position: relative
 }
 .headerElem:hover:before{
@@ -34,4 +45,7 @@ body{
 	visibility: hidden;
 	transform: scaleX(0);
 	transition: all 0.3s ease-in-out 0s;
+}
+#divBody{
+	background: #C7D1E8
 }
