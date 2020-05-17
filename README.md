@@ -1,1 +1,1 @@
-navima.github.io
+gergo430.github.io
