@@ -1,0 +1,37 @@
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+#divHeaderWrapper{
+	background: #5A7DCD
+}
+#tableHeader{
+	font-size: x-large
+}
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.bodyWidth{
+	width: 50%
+}
+.headerElem
+{
+	position: relative
+}
+.headerElem:hover:before{
+	visibility: visible;
+	transform: scaleX(1);
+}
+.headerElem:before{
+	content: "";
+ 	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
+}
